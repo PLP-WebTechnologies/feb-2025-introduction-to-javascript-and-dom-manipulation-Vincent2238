@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Manipulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #dynamic-text {
+            color: blue;
+            font-size: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM Manipulation Example</h1>
+    <p id="dynamic-text">This text will change dynamically.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleElement()">Toggle Element</button>
+    <button onclick="changeStyle()">Change Style</button>
+    <div id="toggle-div">I can be hidden or shown!</div>
+    <script src="script.js"></script>
+</body>
+</html>
